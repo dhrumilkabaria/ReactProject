@@ -1,0 +1,44 @@
+.headerStyle{
+    background-color: #222;
+    height: 36px;
+    padding-top: 8px;
+  padding-right: 32px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logoStyle{
+    background-color: #ff7f7f;
+    height: 35px;
+    display:flex;
+    justify-content: flex-start;
+
+  }
+
+  .buttonStyle{
+      display: flex;
+      width: fit-content;
+      justify-content: flex-end;
+  }
+
+  .buttonStyle2{
+   display: flex;
+   justify-content: space-between;
+}
+
+
+  .rotate-image {
+    animation: rotation 2s linear infinite;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
